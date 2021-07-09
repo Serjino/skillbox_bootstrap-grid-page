@@ -14,4 +14,8 @@ document.addEventListener('DOMContentLoaded', function(){
     this.classList.toggle('menu--active');
   });
 
+  window.addEventListener('load', function(){
+    document.body.style.opacity = '1';
+  })
+
 });

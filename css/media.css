@@ -2,9 +2,6 @@
    .container {
      max-width: 944px;
    }
-   .main-offer__decoration {
-     background: url('../img/main-offer__decoration.png') no-repeat center center;
-   }
    .main-adv__decoration {
      background: url('../img/main-adv__decoration.png') no-repeat center -18px;
      background-size: 100%;
@@ -21,15 +18,21 @@
    }
    .section-main-offer {
      padding: 12px 0 18px;
-   }
-   .main-offer__decoration {
-     background: url('../img/md/main-offer__decoration.png') no-repeat center 105px;
-     background-size: 92% !important;
-   }
+   } 
    .main-offer__heading {
      font-size: 50px;
      margin-bottom: 17px;
    }
+   .main-offer__content {
+    padding: 66px 15px 50px;
+    order: 2;
+    text-align: center;
+  }
+   .main-offer__decoration {
+    height: 350px;
+    margin-top: 60px;
+    background-size: fill;
+  }
    .main-adv__decoration {
      background: url('../img/main-adv__decoration.png') no-repeat center -18px;
      background-size: 130%;
@@ -108,12 +111,11 @@
    .nav {
      padding: 6px 0 29px;
    }
-   .main-offer__content {
-     padding: 66px 15px 116px;
+   .main-offer {
+     text-align: center;
    }
-   .main-offer__decoration {
-     display: none;
-   }
+
+
    .main-adv__decoration {
      background-position: center -40px;
    }
@@ -199,8 +201,12 @@
      margin-bottom: 4px;
    }
    .main-offer__content {
+     text-align: left;
      padding: 42px 15px;
    }
+   .main-offer__decoration {
+    display: none;
+  }
    .main-offer__text {
      font-size: 16px;
      line-height: 132%;
@@ -276,7 +282,7 @@
    }
    .course__content {
      padding-right: 27px;
-     min-height: 473px;
+     min-height: 373px;
    }
    .course__btn {
      padding: 20px 56px;
